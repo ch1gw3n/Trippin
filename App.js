@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { StyleSheet } from 'react-native'; // Import StyleSheet from react-native
 import Main from './navigation/Main';
 
 export default function App() {
@@ -6,7 +7,6 @@ export default function App() {
      <Main/>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
