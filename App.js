@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native'; // Import StyleSheet from react-native
-import Main from './navigation/Main';
+import MainContainer from './navigation/MainContainer';
 
 export default function App() {
   return (
-     <Main/>
+     <MainContainer/>
   );
 }
 

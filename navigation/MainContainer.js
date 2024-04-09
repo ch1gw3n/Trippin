@@ -38,12 +38,19 @@ function MainContainer() {
             // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-          tabBarActiveTintColor: 'tomato',
+          
+          tabBarActiveTintColor: 'white',
           tabBarLabelStyle: {
             paddingBottom: 10,
             fontSize: 10
-            },
-          tabBarStyle: [{ display: 'flex', padding: 10, height: 90 }, null]
+          },
+          tabBarStyle: {
+            display: 'flex',
+            padding: 10,
+            height: 90,
+            backgroundColor: '#4F517D', // Added backgroundColor for color
+            color: 'white' // Assuming this is the color for the text in the tab bar
+          }
         })}>
 
         <Tab.Screen name={homeName} component={HomeScreen} />
