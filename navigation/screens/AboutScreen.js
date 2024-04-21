@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function SettingsScreen({ navigation }) {
+export default function AboutScreen({ navigation }) {
     return (
         <View style={styles.containerStyle}>
             <View style= {styles.infoWrapperStyle}>
-                <Text style={styles.title}>Developed by:</Text>
+                <Text style={styles.title}>Developed by</Text>
                 <Text style={styles.name}>Chi Nguyen & Erika Roberts</Text>
                 <Text style={styles.description}>Spring 2024</Text>
                 <Text style={styles.description}>College of Charleston</Text>
@@ -20,40 +20,31 @@ let styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-end",
     alignItems: "center",
-    backgroundColor: "#eeeeee",
+    backgroundColor: "#DCCFEC",
   },
   infoWrapperStyle: {
-    width: "70%",
+    width: "80%",
     textAlign: "left",
     borderRadius: 10,
     paddingVertical: 10,
     elevation: 5,
     paddingHorizontal: 30,
-    marginBottom: 50,
+    marginBottom: 250,
     backgroundColor: "#ffffff",
   },
   title: {
     fontWeight: "bold",
-    textAlign: "right",
-    fontFamily: "serif",
+    textAlign: "left",
     marginVertical: 5,
   },
   name: {
     fontWeight: "bold",
-    textAlign: "right",
+    textAlign: "left",
     marginVertical: 8,
-    fontFamily: "serif",
     fontSize: 20,
   },
   description: {
     marginVertical: 2,
-    textAlign: "right",
+    textAlign: "left",
   },
-  iconsWrapper: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    width: "60%",
-    alignItems: "center",
-    marginBottom: 40,
-  }
 });
