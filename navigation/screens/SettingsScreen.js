@@ -1,16 +1,13 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function SettingsScreen({ navigation }) {
     return (
         <View style={styles.containerStyle}>
             <View style= {styles.infoWrapperStyle}>
-                <Text
-                onPress={() => navigation.navigate('Home')}
-                style={{ fontSize: 26, fontWeight: 'bold' }}>Settings Screen</Text>
                 <Text style={styles.title}>Developed by:</Text>
                 <Text style={styles.name}>Chi Nguyen & Erika Roberts</Text>
-                <Text style={styles.description}>Sprinh 2024</Text>
+                <Text style={styles.description}>Spring 2024</Text>
                 <Text style={styles.description}>College of Charleston</Text>
             </View>
         </View>
