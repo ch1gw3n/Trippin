@@ -1,3 +1,4 @@
+//https://github.com/ch1gw3n/Trippin
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
