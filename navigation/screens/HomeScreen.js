@@ -6,7 +6,7 @@ export default function HomeScreen({ navigation }) {
         <View style={styles.containerStyle}>
             <View style={styles.infoWrapperStyle}>
                 <Text style={styles.name}>Let's Get Trippin</Text>
-                <Text style={styles.description}>This app allows you to keep track of all past and future trips, with multiple section such as Accomodations and Attractions.</Text>
+                <Text style={styles.description}>This app allows you to keep track of all past and future trips, with sections such as Accomodations and Attractions.</Text>
                 <Text style={styles.title}>To Begin</Text>
                 <Text style={styles.description}
                 >Navigate to the Trips screen to begin adding all of your adventures!</Text>
