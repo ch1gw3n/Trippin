@@ -5,10 +5,11 @@ export default function HomeScreen({ navigation }) {
     return (
         <View style={styles.containerStyle}>
             <View style={styles.infoWrapperStyle}>
-                <Text style={styles.title}>Let's get</Text>
-                <Text style={styles.name}>Trippin</Text>
+                <Text style={styles.name}>Let's Get Trippin</Text>
                 <Text style={styles.description}>This app allows you to keep track of all past and future trips, with multiple section such as Accomodations and Attractions.</Text>
-                <Text style={styles.description}>Navigate to the Trips screen to begin adding all of your adventures!</Text>
+                <Text style={styles.title}>To Begin</Text>
+                <Text style={styles.description}
+                >Navigate to the Trips screen to begin adding all of your adventures!</Text>
             </View>
         </View>
     );
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         paddingVertical: 10,
         elevation: 5,
-        paddingHorizontal: 30,
+        paddingHorizontal: 20,
         marginBottom: 200,
         backgroundColor: "#ffffff",
     },

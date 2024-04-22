@@ -6,7 +6,7 @@ export default function AboutScreen({ navigation }) {
         <View style={styles.containerStyle}>
             <View style= {styles.infoWrapperStyle}>
                 <Text style={styles.title}>Developed by</Text>
-                <Text style={styles.name}>Chi Nguyen & Erika Roberts</Text>
+                <Text style={styles.name}>Chi Nguyen             Erika Roberts</Text>
                 <Text style={styles.description}>Spring 2024</Text>
                 <Text style={styles.description}>College of Charleston</Text>
             </View>
@@ -28,7 +28,7 @@ let styles = StyleSheet.create({
     borderRadius: 10,
     paddingVertical: 10,
     elevation: 5,
-    paddingHorizontal: 30,
+    paddingHorizontal: 20,
     marginBottom: 250,
     backgroundColor: "#ffffff",
   },
