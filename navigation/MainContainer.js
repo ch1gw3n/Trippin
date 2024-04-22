@@ -20,7 +20,7 @@ function MainContainer() {
     
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName={tripsName}
+        initialRouteName={homeName}
         screenOptions ={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
